@@ -2,7 +2,7 @@
 
 namespace :active_storage do
   # Prevent migration installation task from showing up twice.
-  Rake::Task["install:migrations"].clear_comments
+  #Rake::Task["install:migrations"].clear_comments
 
   desc "Copy over the migration needed to the application"
   task install: :environment do
